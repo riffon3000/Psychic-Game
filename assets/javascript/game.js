@@ -2,12 +2,12 @@
 var computerChoices = "abcdefghijklmnopqrstuvwxyz";
 var guesses = [];
 
-// Initialize a variable to hold the number of wins, losses, and remaining guesses with starting values.
+// Initialize variables to count number of wins, losses, and remaining guesses with starting values.
 var wins = 0;
 var losses = 0;
 var remaining = 9;
 
-// Initialize variables the hold reference to the places in the HTML where to display.
+// Initialize variables that reference to place where to display in HTML.
 var winsText = document.getElementById("wins-text");
 var lossesText = document.getElementById("losses-text");
 var remainingText = document.getElementById("remaining-text");
